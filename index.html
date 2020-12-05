@@ -4,12 +4,34 @@
     body {
       background-color: lightblue;
     }
+    
   </style>
-  
+
 <body>
+  
+<input type="text" id="myText" value="Some text...">
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myText").value;
+  
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+  
+  
   <h1>Hello World</h1>
 
-  <h2> Check test another change</h2>
+  <h2>Check test another change</h2>
+
+  <input type="text" id="box_one" value="">
+  <p id=></p>
+
+
 
 
 </body>
