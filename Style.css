@@ -1,0 +1,42 @@
+body{ background-color: cornsilk;} 
+p { color: blue; } 
+h3{ color: white; }
+/* 
+.button1 { 
+    color : cornsilk;
+    background-color: black;
+ }
+
+#textBox { color : red } */
+
+.graph {
+    width: 640px;
+    height: 480px;
+
+    border: 5px;
+    border-radius: 5%;
+    background-color: darkgrey;
+}
+
+.graph-area {
+    position: relative;
+    left: 5%;
+    top: 5%; 
+
+    width: 90%;
+    height: 90%;
+
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+}
+
+.dot { /* dot element, does not assign positioning */ 
+    position: absolute;
+
+    background-color: black;
+    border-radius: 100%;
+
+    width: 10px;
+    height: 10px;
+
+}

@@ -1,0 +1,15 @@
+Order Number,Trip Number,Ship Name,Trip Type,Berth,Time At Berth
+300,300.1,Disdain,Arrival,1,24.66
+300,300.2,Disdain,Departure,1,34.21
+301,301.1,The Grenada,Arrival,2,15.50
+302,302.1,Elias,Arrival,1,16.58
+301,301.2,The Grenada,Departure,2,24.20
+302,302.2,Elias,Departure,1,17.00
+303,303.1,Trooper,Arrival,4,19.83
+304,304.1,Jamuna,Arrival,1,16.38
+303,303.2,Trooper,Departure,4,21.33
+304,304.2,Jamuna,Departure,1,16.84
+305,305.1,The Kilmorey,Arrival,3,22.20
+305,305.2,The Kilmorey,Departure,3,16.61
+306,306.1,Everingham,Arrival,4,19.14
+306,306.2,Everingham,Departure,4,16.10
