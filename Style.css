@@ -10,15 +10,17 @@ h1 {
 }
 
 .div-card {
+    background-color: orange;
     position: relative;
-    left: 00px;
-    top: 00px;
+    width: 100px;
+    height: 100px;
+    transform: matrix(2, 0, 0, 2, 100, 100);
 }
 
 .card {
     stroke-width: 0.5pt;
     stroke: black;
-    background-color: white;
+    /* background-color: white; */
     transition: 0.5s;
 }
 
@@ -29,20 +31,20 @@ h1 {
 }
 
 .card__hexagon {
-    /* word-wrap: break-word; */
     fill: #012A4A;
     transition: 0.5s;
     transform: matrix(1, 0, 0, 1, 0, 0);
+    transform-origin: center;
 }
 
 .card__hexagon:hover {
     transform: scale(1.2);
 }
-
+/* 
 .card__desc {
     width: 80px;
     height: 500px;  
     font-family: Arial;
     font-size: 4px;
     fill: white;
-}
+} */
