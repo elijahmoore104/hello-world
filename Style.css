@@ -1,0 +1,48 @@
+body {
+    font-family: Arial;
+    background-color: #012A4A;
+    color: #468FAF;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.div-card {
+    position: relative;
+    left: 00px;
+    top: 00px;
+}
+
+.card {
+    stroke-width: 0.5pt;
+    stroke: black;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.card__body {
+    word-wrap: break-word;
+    fill:  black;
+    transition: 0.5s;
+}
+
+.card__hexagon {
+    /* word-wrap: break-word; */
+    fill: #012A4A;
+    transition: 0.5s;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.card__hexagon:hover {
+    transform: scale(1.2);
+}
+
+.card__desc {
+    width: 80px;
+    height: 500px;  
+    font-family: Arial;
+    font-size: 4px;
+    fill: white;
+}
